@@ -11,7 +11,7 @@ This project is a part of a bigger project we've done on Term 5 of University (@
 
 Attention to some Rules:<br>
 
-[](https://github.com/alirezakay/RegexToDFA/assets/img/SyntaxTreeTerminologies.png)
+![rule1](https://github.com/alirezakay/RegexToDFA/assets/img/SyntaxTreeTerminologies.png)
 
 **NetBeans** is the IDE I've coded in. you can clone this project and import it in NetBeans, easily.<br>
 
