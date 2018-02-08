@@ -4,7 +4,7 @@ This is how to convert regex (REGular EXpression) to DFA by creating and using s
 This project is a part of a bigger project we've done on Term 5 of University (@ KNTU) for **Compiler Course** to creating a simple compiler. 
 <hr>
 
-<a href="#">hello</a>
+<p style="color: #55e">hello</>
 
 <br>
 
