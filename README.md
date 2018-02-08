@@ -5,8 +5,9 @@ This project is a part of a bigger project we've done on Term 5 of University (@
 <hr>
 
 ## Getting Started
-####FIRST:
-- :small_red_diamond: Watch this video to comprehend the concepts: https://www.youtube.com/watch?v=uPnpkWwO9hE<br><br>
+
+:small_red_diamond: Watch this video to comprehend the concepts: https://www.youtube.com/watch?v=uPnpkWwO9hE<br><br>
+
 **NetBeans** is the IDE I've coded. you can clone this project and import it in NetBeans, easily.<br>
 
 The classes used, are as follows:
