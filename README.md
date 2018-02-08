@@ -9,6 +9,10 @@ This project is a part of a bigger project we've done on Term 5 of University (@
 
 :small_blue_diamond: Watch this video to comprehend the **_concepts_**: https://www.youtube.com/watch?v=uPnpkWwO9hE<br><br>
 
+Attention to some Rules:<br>
+
+[](https://github.com/alirezakay/RegexToDFA/assets/img/SyntaxTreeTerminologies.png)
+
 **NetBeans** is the IDE I've coded in. you can clone this project and import it in NetBeans, easily.<br>
 
 The classes used, are as follows:
