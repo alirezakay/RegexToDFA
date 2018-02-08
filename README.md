@@ -11,9 +11,9 @@ This project is a part of a bigger project we've done on Term 5 of University (@
 
 Attention to some Rules:<br>
 
-![rule1](https://github.com/alirezakay/RegexToDFA/blob/master/assets/img/rule1.PNG)
-![rule2](https://github.com/alirezakay/RegexToDFA/blob/master/assets/img/rule3.PNG)
 ![rule3](https://github.com/alirezakay/RegexToDFA/blob/master/assets/img/rule2.png)
+![rule2](https://github.com/alirezakay/RegexToDFA/blob/master/assets/img/rule3.PNG)
+
 
 
 **NetBeans** is the IDE I've coded in. you can clone this project and import it in NetBeans, easily.<br>
