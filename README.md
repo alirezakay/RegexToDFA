@@ -44,11 +44,12 @@ public static void initialize() {
     DfaTraversal dfat = new DfaTraversal(q0, input);    
 }
 ```
-**DStates** is a _Set_ of States which is used for creating the final dfa.<br>
-**input** is also a _Set_ which holding the characters of the input regular expression taken from user.<br>
-  pay attention to this issue that, some characters like '\*' can be used as an operator (closure, union, concatination, ...)
-  so if you want to enter these characters just as a normal character, you could bring a backslash '\' following up the intended character
-  for example "\\\*" meaning a normal '\*' character. and "\*" meaning star opeartor (closure)
+- **DStates** is a _Set_ of States which is used for creating the final dfa.<br>
+- **input** is also a _Set_ which holding the characters of the input regular expression taken from user.<br><br>
+  pay attention to this issue that, some characters like '\*' can be used as an operator (closure, union, concatination, ...)<br>
+  so if you want to enter these characters just as a normal character, you could bring a backslash '\' following up the intended character<br>
+  for example "\\\*" meaning a normal '\*' character. and "\*" meaning star opeartor (closure)<br>
+  this is why we use a set of _String_ for declaring input variable.
 
 <br> NEEDS TO BE COMPLETED ... <br>
 WAIT FOR SOME DAYS!
