@@ -104,3 +104,6 @@ thus, now you comprehend what the **Node** and **LeafNode** are used for.
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/alirezakay/RegexToDFA/blob/master/LICENSE) file for details
+
+### Acknowledgments
+- the section of fragmenting the regex and using the stack and also doOperation is adapted by a fine code of @felipemoura in github.
