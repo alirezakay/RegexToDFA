@@ -91,7 +91,7 @@ public static void initialize() {
 
 if you look at the **SyntaxTree** class, you will understand that a **BinaryTree** object is created.
 
-***so a syntax tree is a binary tree with some new special attributes (firstpos, lastpos, nullable, followpos)***.
+**_so a syntax tree is a binary tree with some new special attributes (firstpos, lastpos, nullable, followpos)_**.
 
 in the BinaryTree class, the inputted regex is going to convert to a tree which contains some nodes.
 
