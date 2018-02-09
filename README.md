@@ -49,7 +49,15 @@ public static void initialize() {
   pay attention to this issue that, some characters like '\*' can be used as an operator (closure, union, concatination, ...)<br>
   so if you want to enter these characters just as a normal character, you could bring a backslash '\' following up the intended character<br>
   for example "\\\*" meaning a normal '\*' character. and "\*" meaning star opeartor (closure)<br>
-  this is why we use a set of _String_ for declaring input variable.
+  this is why we use a set of _String_ for declaring input variable.<br><br>
+- **`String regex = getRegex();`** is for getting the intended regular expression from stdin.<br>
+- **`getSymbols(regex);`** this line of code sets the _input_ Set.<br>
+- **`SyntaxTree st = new SyntaxTree(regex);`** and this line creates the corresponding syntax tree of the inputted regex.<br>
+- **`root = st.getRoot();`** gets the root of the syntax tree.<br>
+- **`followPos = st.getFollowPos();`** make a new refference to the _Set_ of followpos variable.<br>
+- **`State q0 = createDFA();`** creates the DFA through using the syntax tree and assigns q0 the start state of resulted DFA.<br>
+- **`DfaTraversal dfat = new DfaTraversal(q0, input);`** makes a new DFA Traversal object for traversing the resulted DFA and recognizing whether the DFA can accept a particular string or not.<br>
+  
 
 <br> NEEDS TO BE COMPLETED ... <br>
 WAIT FOR SOME DAYS!
