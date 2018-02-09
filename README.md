@@ -100,4 +100,4 @@ the last most bottom nodes are called, the leaf nodes.
 thus, now you comprehend what the **Node** and **LeafNode** are used for.
 
 ### Authors
-- ALireza Kavian - phase 1 - ![BRILAC ASCK](https://www.github.com/BRILACASCK)
+- ALireza Kavian - phase 1 - [BRILAC ASCK](https://www.github.com/BRILACASCK)
