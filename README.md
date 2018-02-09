@@ -46,17 +46,28 @@ public static void initialize() {
 }
 ```
 - **DStates** is a _Set_ of States which is used for creating the final dfa.<br>
+
 - **input** is also a _Set_ which holding the characters of the input regular expression taken from user.<br><br>
+
   pay attention to this issue that, some characters like '\*' can be used as an operator (closure, union, concatination, ...)<br>
+  
   so if you want to enter these characters just as a normal character, you could bring a backslash '\' following up the intended character<br>
+  
   for example "\\\*" meaning a normal '\*' character. and "\*" meaning star opeartor (closure)<br>
   this is why we use a set of _String_ for declaring input variable.<br><br>
+  
 - **`String regex = getRegex();`** is for getting the intended regular expression from stdin.<br>
+
 - **`getSymbols(regex);`** this line of code sets the _input_ Set.<br>
+
 - **`SyntaxTree st = new SyntaxTree(regex);`** and this line creates the corresponding syntax tree of the inputted regex.<br>
+
 - **`root = st.getRoot();`** gets the root of the syntax tree.<br>
+
 - **`followPos = st.getFollowPos();`** make a new refference to the _Set_ of followpos variable.<br>
+
 - **`State q0 = createDFA();`** creates the DFA through using the syntax tree and assigns q0 the start state of resulted DFA.<br>
+
 - **`DfaTraversal dfat = new DfaTraversal(q0, input);`** makes a new DFA Traversal object for traversing the resulted DFA and recognizing whether the DFA can accept a particular string or not.<br>
 
 <hr>
@@ -78,11 +89,15 @@ public static void initialize() {
 */
 ```
 
-if you look at the **SyntaxTree** class, you will understand that a **BinaryTree** object is created.<br>
-***so a syntax tree is a binary tree with some new special attributes (firstpos, lastpos, nullable, followpos)***.<br>
-in the BinaryTree class, the inputted regex is going to convert to a tree which contains some nodes.<br>
-the last most bottom nodes are called, the leaf nodes.<br>
-thus, now you comprehend what the **Node** and **LeafNode** are used for.<br>
+if you look at the **SyntaxTree** class, you will understand that a **BinaryTree** object is created.
+
+***so a syntax tree is a binary tree with some new special attributes (firstpos, lastpos, nullable, followpos)***.
+
+in the BinaryTree class, the inputted regex is going to convert to a tree which contains some nodes.
+
+the last most bottom nodes are called, the leaf nodes.
+
+thus, now you comprehend what the **Node** and **LeafNode** are used for.
 
 
 <br> NEEDS TO BE COMPLETED ... <br>
