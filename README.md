@@ -27,5 +27,28 @@ The classes used, are as follows:
 - DfaTraversal
 - State
 
+here is an initialize method which is called in the main function:
+```java
+public static void initialize() {
+    DStates = new HashSet<>();
+    input = new HashSet<String>();
+
+    String regex = getRegex();
+    getSymbols(regex);
+
+    SyntaxTree st = new SyntaxTree(regex);
+    root = st.getRoot();
+    followPos = st.getFollowPos();
+
+    State q0 = createDFA();
+    DfaTraversal dfat = new DfaTraversal(q0, input);    
+}
+```
+**DStates** is a _Set_ of States which is used for creating the final dfa.<br>
+**input** is also a _Set_ which holding the characters of the input regular expression taken from user.<br>
+  pay attention to this issue that, some characters like '\*' can be used as an operator (closure, union, concatination, ...)
+  so if you want to enter these characters just as a normal character, you could bring a backslash '\' following up the intended character
+  for example "\\\*" meaning a normal '\*' character. and "\*" meaning star opeartor (closure)
+
 <br> NEEDS TO BE COMPLETED ... <br>
 WAIT FOR SOME DAYS!
