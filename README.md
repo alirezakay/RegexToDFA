@@ -99,9 +99,12 @@ the last most bottom nodes are called, the leaf nodes.
 
 thus, now you comprehend what the **Node** and **LeafNode** are used for.
 
+<hr>
+
 ### Running the tests
-click [here](https://github.com/alirezakay/RegexToDFA/blob/master/assets/img/run1.PNG) to see the result of accepting
-click [here](https://github.com/alirezakay/RegexToDFA/blob/master/assets/img/run2.PNG) to see the result of rejecting
+click [here](https://github.com/alirezakay/RegexToDFA/blob/master/assets/img/run1.PNG) to see the acceped result.
+
+click [here](https://github.com/alirezakay/RegexToDFA/blob/master/assets/img/run2.PNG) to see the rejected result.
 
 
 ### Authors
