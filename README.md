@@ -101,3 +101,6 @@ thus, now you comprehend what the **Node** and **LeafNode** are used for.
 
 ### Authors
 - ALireza Kavian - phase 1 - [BRILAC ASCK](https://www.github.com/BRILACASCK)
+
+### License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/alirezakay/RegexToDFA/blob/master/LICENSE) file for details
