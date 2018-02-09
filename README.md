@@ -58,7 +58,32 @@ public static void initialize() {
 - **`followPos = st.getFollowPos();`** make a new refference to the _Set_ of followpos variable.<br>
 - **`State q0 = createDFA();`** creates the DFA through using the syntax tree and assigns q0 the start state of resulted DFA.<br>
 - **`DfaTraversal dfat = new DfaTraversal(q0, input);`** makes a new DFA Traversal object for traversing the resulted DFA and recognizing whether the DFA can accept a particular string or not.<br>
-  
+
+<hr>
+
+### Proof Of Concepts
+
+```java
+/*
+    ***
+        (a|b)*a => creating binary syntax tree:
+                            .
+                           / \
+                          *   a
+                         /
+                        |
+                       / \
+                      a   b
+    ***
+*/
+```
+
+if you look at the **SyntaxTree** class, you will understand that a **BinaryTree** object is created.<br>
+***so a syntax tree is a binary tree with some new special attributes (firstpos, lastpos, nullable, followpos)***.<br>
+in the BinaryTree class, the inputted regex is going to convert to a tree which contains some nodes.<br>
+the last most bottom nodes are called, the leaf nodes.<br>
+thus, now you comprehend what the **Node** and **LeafNode** are used for.<br>
+
 
 <br> NEEDS TO BE COMPLETED ... <br>
 WAIT FOR SOME DAYS!
