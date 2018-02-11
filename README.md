@@ -1,3 +1,9 @@
+<!--
+  Title: regex to dfa directly by using syntax tree
+  Description: This is how to convert regex (REGular EXpression) to DFA by creating and using syntax tree with java code
+  Author: alireza_kay (alirezakay)
+-->
+
 # RegexToDFA
 
 > This is how to convert regex (REGular EXpression) to DFA by creating and using syntax tree with ***Java*** code.<br>
