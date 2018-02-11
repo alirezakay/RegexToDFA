@@ -57,7 +57,7 @@ public static void initialize() {
 
   pay attention to this issue that, some characters like '\*' can be used as an operator (closure, union, concatination, ...)<br>
   
-  so if you want to enter these characters just as a normal character, you could bring a backslash '\' following up the intended character<br>
+  so if you want to enter these characters just as a normal character, you could bring a backslash '\\' following up the intended character<br>
   
   for example "\\\*" meaning a normal '\*' character. and "\*" meaning star opeartor (closure)<br>
   this is why we use a set of _String_ for declaring input variable.<br><br>
