@@ -1,2 +1,5 @@
+title: Regex To DFA
+description: converting regular expression - regex- to DFA -deterministic finite automata - using Syntax Tree in JAVA
+
 plugins:
   - jekyll-seo-tag
