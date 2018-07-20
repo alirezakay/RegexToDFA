@@ -4,7 +4,7 @@
   Author: alireza_kay (alirezakay)
 -->
 
-# RegexToDFA
+# Regex To DFA
 
 > This is how to convert regex (REGular EXpression) to DFA by creating and using syntax tree with ***Java*** code.<br>
 
