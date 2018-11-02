@@ -99,11 +99,11 @@ if you look at the **SyntaxTree** class, you will understand that a **BinaryTree
 
 **_so a syntax tree is a binary tree with some new special attributes (firstpos, lastpos, nullable, followpos)_**.
 
-in the BinaryTree class, the inputted regex is going to convert to a tree which contains some nodes.
+in the BinaryTree class, the inputted regex is going to be converted to a tree which contains some nodes.
 
 the last most bottom nodes are called, the leaf nodes.
 
-thus, now you comprehend what the **Node** and **LeafNode** are used for.
+So, now you know what the **Node** and **LeafNode** are used for.
 
 <hr>
 
