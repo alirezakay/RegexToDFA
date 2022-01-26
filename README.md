@@ -8,7 +8,7 @@
 
 > This is how to convert regex (REGular EXpression) to DFA by creating and using syntax tree in ***Java*** language.<br>
 
-This project is a part of a bigger project we've done on Term 5 of University (@ KNTU) for **Compiler Course** to create a simple compiler. 
+This project is a part of a bigger project we'd done for **Compiler Course** to create a simple compiler. 
 
 <hr>
 
@@ -16,14 +16,14 @@ This project is a part of a bigger project we've done on Term 5 of University (@
 
 :small_blue_diamond: Watch this video to comprehend the **_concepts_**: https://www.youtube.com/watch?v=uPnpkWwO9hE<br><br>
 
-Attention to some Rules:<br>
+Pay attention to some Rules:<br>
 
 ![rule3](https://github.com/alirezakay/RegexToDFA/blob/master/assets/img/rule2.png)
 ![rule2](https://github.com/alirezakay/RegexToDFA/blob/master/assets/img/rule3.PNG)
 
 
 
-**NetBeans** is the IDE I've coded in. you can clone this project and import it in NetBeans, easily.<br>
+**NetBeans** is the IDE I coded in. you can clone this project and import it in NetBeans easily.<br>
 
 The classes used, are as follows:
 - RegexToDfa
@@ -114,11 +114,11 @@ click [here](https://github.com/alirezakay/RegexToDFA/blob/master/assets/img/run
 
 
 ### Authors
-- ALireza Kavian - phase 1 - [BRILAC ASCK](https://www.github.com/BRILACASCK)
+- ALireza Kavian - [BRILACASCK](https://www.github.com/BRILACASCK)
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/alirezakay/RegexToDFA/blob/master/LICENSE) file for details
 
 ### Acknowledgments
-- the section of fragmenting the regex and using the stack and also doOperation is adapted by a fine code of [@felipemoura](https://github.com/felipemoura/RegularExpression-to-NFA-to-DFA) in github.
+- Fragmenting section of the regex, using the stack, and also doOperation is adopted by a fine code of [@felipemoura](https://github.com/felipemoura/RegularExpression-to-NFA-to-DFA) in github.
 
